@@ -7,8 +7,9 @@ import java.io.Serializable;
  * @author Four Connection
  * @version 1.0
  */
+//extends significa q esta classe é filha de Credential
 
-public class User implements Serializable{
+public class User extends Credential implements Serializable{
 
 	//----------Propriedades (substantivos, adjetivos)----------- 
 	
